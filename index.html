@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Baloo 2 (header font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+
+    <!-- Nunito (paragraph font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/animation.css">
+    <link rel="stylesheet" href="./src/responsive.css">
+    <script type="module" src="./script/script.js"></script>
+    <title>Bilby Dentals</title>
+    <link rel="icon" href="./image/images_folder/Bilby-Dental.png">
+</head>
+
+<body>
+    <div id="web-page">
+        <nav class="flex justify-between items-center">
+            <div class="logo w-50 sm:w-62.5 md:w-62.5 xl:w-75">
+                <img src="./image/icon_folder/header-logo-paediatric-dental-practice (1).png" alt="">
+            </div>
+
+            <ul class="nav-links flex flex-col gap-5 md:flex-row md:items-center md:gap-7.5">
+                <li><a class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="#hero">home</a></li>
+                <li><a class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="##CTA-section">about us</a></li>
+                <li><a class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="#services">services</a></li>
+                <li><a class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="#footer">contact</a></li>
+            </ul>
+
+            <div class="call-image contact w-12.5 md:w-15 xl:w-20">
+                <img src="./image/icon_folder/icons8-call-94.png" alt="">
+            </div>
+        </nav>
+        <div id="hero" class="hero relative h-[90vh] lg:h-screen flex items-center justify-center flex-col gap-5">
+            <h1
+                class="text-center text-[clamp(3.5rem,8vw,8rem)] leading-[0.82] tracking-[-0.04em] font-semibold text-(--primary-color) z-10 flex flex-col items-center sm:flex-row gap-2.5 sm:gap-5 relative">
+                <span class="smile text-(--secondary-color) typingIn">little smiles,</span>
+                <span class="care">
+                    big care.
+                </span>
+
+            </h1>
+            <p
+                class="text-[clamp(1.25rem,2vw,2rem)] leading-tight tracking-[-0.02em] font-medium text-center text-(--p-color) z-10">
+                make every visit a fun, comfortable experience for your little one's.
+            </p>
+
+            <button
+                class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl bg-(--header-color) text-(--btn-color) w-fit">book
+                now</button>
+
+            <img class="hero-icon absolute bottom-80 right-3.5 sm:right-4.5 sm:bottom-70 w-37.5 sm:w-50 md:w-75 xl:w-100"
+                src="./image/icon_folder/undraw_fatherhood_eldm.svg" alt="This is an icon">
+
+            <img class="hero-icon absolute w-37.5 top-40 left-3.5 sm:w-50 md:w-75 sm:left-7.5 sm:top-15 "
+                src="./image/icon_folder/undraw_family_6gj8.svg" alt="This is an icon">
+
+            <img class="hero-icon absolute left-5 bottom-15 w-37.5 sm:w-50 md:w-75 sm:left-10 sm:bottom-10 "
+                src="./image/icon_folder/undraw_toy-car_on9j.svg" alt="This is an icon">
+
+        </div>
+
+        <section id="services" class="sections services flex flex-col gap-10 md:gap-15 lg:gap-30 items-center">
+
+            <h2
+                class="text-[clamp(2rem,4.5vw,4rem)] leading-[0.9] tracking-[-0.03em] font-medium text-(--primary-color) text-center">
+                services</h2>
+
+            <div class="cards-section grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+
+                <div class="card flex items-center justify-center h-75 overflow-hidden relative">
+
+                    <div class="card-img absolute inset-0 object- -z-1">
+                        <div class="bg-(--bg-shade) absolute inset-0"></div>
+                        <img class="card-image absolute object-cover inset-0 -z-10 h-100"
+                            src="./image/images_folder/premium_photo-1661582558691-e34f3b0837dc.jfif"
+                            alt="This is an image">
+                    </div>
+                    <div class="z-1">
+                        <h3
+                            class="z-10 text-[clamp(1.25rem,2vw,2rem)] leading-tight tracking-[-0.02em] font-medium text-(--header-color) text-center">
+                            tooth extraction
+                        </h3>
+
+                        <p
+                            class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl text-(--p-color) text-center">
+                            here, we focus on providing gentle and efficient tooth extractions for kids at 0 - 18 years.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card flex items-center justify-center h-75 overflow-hidden relative">
+
+                    <div class="card-img absolute inset-0 object- -z-1">
+                        <div class="bg-(--bg-shade) absolute inset-0"></div>
+                        <img class="card-image absolute object-cover inset-0 -z-10 h-100"
+                            src="./image/images_folder/untitled(3).png" alt="This is an image">
+                    </div>
+                    <div class="z-1">
+                        <h3
+                            class="z-10 text-[clamp(1.25rem,2vw,2rem)] leading-tight tracking-[-0.02em] font-medium text-(--header-color) text-center">
+                            clean up and check up
+                        </h3>
+
+                        <p
+                            class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl text-(--p-color) text-center">
+                            we offer effective and fun dental care both at our dental care center and also at routine
+                            home
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card flex items-center justify-center h-75 overflow-hidden relative">
+                    <div class="card-img absolute inset-0 object- -z-1">
+                        <div class="bg-(--bg-shade) absolute inset-0"></div>
+                        <img class="card-image absolute object-cover inset-0 -z-10 h-100"
+                            src="./image/images_folder/home-paediatric-dental-practice2 (2).jpg" alt="This is an image">
+                    </div>
+                    <div class="">
+                        <h3
+                            class=" text-[clamp(1.25rem,2vw,2rem)] leading-tight tracking-[-0.02em] font-medium text-(--header-color) text-center">
+                            fissure sealants
+                        </h3>
+
+                        <p
+                            class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl text-(--p-color) text-center">
+                            here, we provide the best hard protective coat that aids in the protection and coverage of
+                            grooves and pits.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="CTA-section" class="CTA-section">
+            <div class="CTA relative flex flex-col items-center gap-3.5 md:gap-5 h-112.5 justify-center">
+                <h3
+                    class="text-[clamp(2rem,4.5vw,4rem)] leading-[0.9] tracking-[-0.03em] font-bold text-(--primary-color) text-center z-1">
+                    <span class="text-(--secondary-color)">love is part</span> of every smile
+                </h3>
+
+                <p class="text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl text-center text-(--p-color) z-1">
+                    we combine gentle dental care with genuine love and compassion, creating a safe and joyful
+                    experience where every little smile can grow healthy and bright.
+                </p>
+
+                <img class="absolute w-37.5 sm:w-50 md:w-75 xl:w-100 bottom-0 right-7.5"
+                    src="./image/icon_folder/undraw_exam-prep_nmly.svg" alt="this is an icon">
+            </div>
+        </section>
+
+        <div class="flex items-center justify-center relative">
+            <img class="w-37.5 sm:w-50 md:w-75 xl:w-100 banner-img absolute"
+                src="./image/icon_folder/bottom-banner-paediatric-dental-practice.png" alt="">
+            <img class="w-37.5:w-[200px] md:w-75 xl:w-100"
+                src="./image/icon_folder/undraw_thumbs-up_f300.svg" alt="">
+        </div>
+
+        <footer id="footer" class="bg-(--primary-color)">
+            <h3
+                class="text-[clamp(2rem,4.5vw,4rem)] leading-[0.9] tracking-[-0.03em] font-bold text-(--p-color) text-center z-1">
+                designed by @Lord_lambert
+            </h3>
+        </footer>
+
+        <div class="menu-bar-container fixed w-fit bottom-45 right-22.5">
+            <div class="menuBar fixed">
+                <div class="icon-menu menu w-16.25 bg-(--btn-color) absolute inset-0">
+                    <img class="icon-menu" src="./image/icon_folder/menu-fill.svg" alt="This is an icon">
+                </div>
+                <div class="icon-menu opacity-0 close w-16.25 bg-(--btn-color)">
+                    <img class="icon-menu" src="./image/icon_folder/close-line.svg" alt="This is an icon">
+                </div>
+            </div>
+        </div>
+
+        <ul class="nav-link-pop-out hide-nav-link flex flex-col gap-5 fixed bottom-50 hide-nav-link right-0 z-10 ">
+            <li><a class="nav-link-1 text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="#hero">home</a></li>
+            <li><a class="nav-link-1 text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="#CTA-section">about us</a></li>
+            <li><a class="nav-link-1 text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="#services">services</a></li>
+            <li><a class="nav-link-1 text-[clamp(1rem,1.3vw,1.25rem)] leading-relaxed max-w-xl" href="#footer">contact</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
